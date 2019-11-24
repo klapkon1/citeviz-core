@@ -34,8 +34,7 @@
     </plugins>
   </build>
   <dependencies>
-  		<!-- CITEVIZ compontens -->
-  
+  		<!-- CITEVIZ COMPONENTS -->
   		<dependency>
   			<groupId>cz.uhk.fim.citeviz</groupId>
   			<artifactId>citeviz-model</artifactId>

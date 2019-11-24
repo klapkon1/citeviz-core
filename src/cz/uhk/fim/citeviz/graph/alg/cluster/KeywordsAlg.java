@@ -4,14 +4,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.linguistic.rake.KeywordsExtractor;
-
 import cz.uhk.fim.citeviz.graph.primitives.Node;
 import cz.uhk.fim.citeviz.model.PaperFullDetail;
 
 public class KeywordsAlg extends ClusterAlg{
 
-	private KeywordsExtractor extractor = new KeywordsExtractor();
+	//private KeywordsExtractor extractor = new KeywordsExtractor();
 	
 	
 //	public KeywordsAlg() {
@@ -30,7 +28,7 @@ public class KeywordsAlg extends ClusterAlg{
 		for (Node<?> node : getNodes()) {
 			PaperFullDetail paper = (PaperFullDetail)node.getData();
 			
-			computedKeywords.put(node, extractor.analyzeText(paper.getAbstract()));
+			//computedKeywords.put(node, extractor.analyzeText(paper.getAbstract()));
 			
 			
 			System.out.println(computedKeywords.get(node));
