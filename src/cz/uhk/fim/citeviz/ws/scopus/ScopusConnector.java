@@ -394,13 +394,11 @@ public class ScopusConnector extends CachedDataInterface {
 
 	@Override
 	public PagedResult<IdRecord> searchAffiliations(String text, String key, int page, int pageSize) {
-		// TODO Auto-generated method stub
-		return null;
+		throw new UnsupportedOperationException();
 	}
 
 	@Override
 	public List<Affiliation> getAffiliationDetails(Set<IdRecord> ids) {
-		// TODO Auto-generated method stub
-		return null;
+		throw new UnsupportedOperationException();
 	}
 }
